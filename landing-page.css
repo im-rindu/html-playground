@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    text-align: center;
+}
+
+h1 {
+    font: 800 54px 'Poppins', sans-serif;
+    line-height: 81px;
+    margin-bottom: 10;
+}
+
+h2 {
+    color: #fff;
+    font: 600 24px 'Poppins', sans-serif;
+    font-style: italic;
+    line-height: 36px;
+}
+
+input {
+    border-radius: 25px;
+    border: none;
+    height: 50%;
+    padding: 2.5px 28px;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 8vh;
+    background-color: #BEADFA;
+    padding: 5px 35px;
+    color: #fff;
+}
+
+.header img{
+    width: 35px;
+    height: 35px;
+}
+
+.header .user-photo img{
+    border-radius: 50%;
+    border: #fff 3px solid;
+    margin-top: 5px;
+}
+
+.header .nav{
+    width: 15%;
+    font: 600 20px 'Poppins', sans-serif;
+    line-height: 30px;
+    text-align: center;
+}
+
+.header .nav:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.header .input-search{
+    margin-bottom: 10px;
+}
+
+.header .input-search img{
+    position: absolute;
+    margin: 8px;
+    width: 15px;
+    height: 15px;
+}
+
+/* About Us Page */
+.about-us {
+    width: 100%;
+    height: 92vh;
+    background-color: #8E8FFA;
+    font: 400 22px 'Poppins', sans-serif;
+    line-height: 33px;
+}
+
+.about-us td {
+    padding-top: 7.5%;
+    vertical-align: top;
+    width: 25%;
+}
+
+.about-us .main-content {
+    width: 50%;
+}
+/* Blah Page */
+.blah {
+    width: 100%;
+    height: 50vh;
+    background-color: #000;
+    font: 500 54px 'Poppins', sans-serif;
+    font-style: italic;
+    line-height: 81px;
+    color: #fff;
+}
+
+
+/* Review Page */
+.review {
+    background-color: #C780FA;
+    padding: 23px;
+    width: 100%;
+    height: 100vh;
+}
+
+.review img{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    margin-bottom: 20px;
+}
+
+.review p {
+    background-color: #ECF9FF;
+    border: 3px solid #000;
+    border-radius: 3%;
+    padding: 30px 27px;
+    margin: 30px;
+    font: 500 16px 'Poppins', sans-serif;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.review span {
+    font: 400 25px 'Poppins', sans-serif;
+    line-height: 37.5px;
+}
